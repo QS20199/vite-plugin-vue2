@@ -1,4 +1,5 @@
 import { SFCBlock } from '@vue/component-compiler-utils'
+// @ts-ignore get vue-template-compiler from parent project deps
 import * as vueTemplateCompiler from 'vue-template-compiler'
 import { TransformPluginContext } from 'rollup'
 import { ResolvedOptions } from './index'

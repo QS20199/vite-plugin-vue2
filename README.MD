@@ -1,4 +1,8 @@
-# vite-plugin-vue2
+# vite-plugin-vue2 (fork)
+
+This is the fork of the original vite-plugin-vue2, and remove `vue-template-compiler` from package.json.
+So this plugin will use parent project's vue-template-compiler.
+This change is for being compatible with old Vue version (like vue@2.5.x)
 
 ## Usage
 
